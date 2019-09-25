@@ -1,0 +1,14 @@
+(module MJ-4PP-9_no_silk (layer F.Cu) (tedit 5D6BE442)
+  (fp_text reference J4 (at 0 2.1082) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MJ-4PP-9_no_silk (at 0 -4.25) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -4.55 0.05) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.45 0.05) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at -2.75 -2.1) (size 2.3 1.5) (drill oval 1.5 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at 0.25 -2.1) (size 2.3 1.5) (drill oval 1.5 1) (layers *.Cu *.Mask))
+  (pad 4 thru_hole oval (at 4.25 -2.1) (size 2.3 1.5) (drill oval 1.5 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 5.75 2.2) (size 2.3 1.5) (drill oval 1.5 1) (layers *.Cu *.Mask))
+)
